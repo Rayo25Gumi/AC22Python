@@ -13,6 +13,7 @@ app = Flask(__name__)
 #    db.commit()
 #    db.close()
 
+
 @app.route('/') 
 def hello_world():
    # registerConnection()
